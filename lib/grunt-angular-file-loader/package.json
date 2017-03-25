@@ -1,0 +1,14 @@
+{
+  "name": "grunt-angular-file-loader",
+  "version": "1.0.0",
+  "description": "> Automatically sort and inject AngularJS app files depending on module definitions and usage",
+  "main": "tasks/angular_file_loader.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

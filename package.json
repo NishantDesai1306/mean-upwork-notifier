@@ -1,0 +1,35 @@
+{
+  "name": "SampleProjectSetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gruntfile.js",
+  "scripts": {
+    "dev": "grunt dev",
+    "dist": "grunt dist",
+    "postinstall": "bower install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-angular-file-loader": "file:lib\\grunt-angular-file-loader",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express": "^1.4.1",
+    "grunt-html2js": "^0.3.8",
+    "grunt-include-source": "^1.0.0",
+    "grunt-parallel": "^0.5.1",
+    "grunt-usemin": "^3.1.1",
+    "grunt-wiredep": "^3.0.1",
+    "ng-dependencies": "^0.8.1",
+    "toposort": "^1.0.3"
+  },
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}

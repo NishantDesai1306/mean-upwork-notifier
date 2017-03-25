@@ -1,0 +1,19 @@
+<div class="row">
+	<div class="col-lg-6 col-md-12 col-sm-12"
+		ba-panel
+		ba-panel-title="Acquisition Channels"
+		ba-panel-class="medium-panel traffic-panel">
+    <traffic-chart></traffic-chart>
+  </div>
+	<div class="col-xlg-8 col-lg-12 col-md-12 col-sm-7 col-xs-12"
+		ba-panel
+		ba-panel-title="Revenue"
+		ba-panel-class="medium-panel">
+		<div ng-if="loading" class="progress">
+			<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100" ng-style="getProgressStyle()">
+				<span class="sr-only">{{progress}}% Complete</span>
+			</div>
+		</div>
+		<dashboard-line-chart ng-if="!loading"></dashboard-line-chart>
+	</div>
+</div>
